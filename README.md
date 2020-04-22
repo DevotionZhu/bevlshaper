@@ -32,3 +32,9 @@ conda create --name kitti -y python=3 \
 ```bash
 time python bevlshaper.py 2011_09_26 0001
 ```
+Therefore, the KITTI dataset must have been downloaded in beforehand.
+In the future, a download script will be supplied
+
+#### Current issues
+- Insufficient distance for recognition
+- Insufficient execution speed
